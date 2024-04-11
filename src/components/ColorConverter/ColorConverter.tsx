@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import styles from './colorConverter.module.css';
 
-
 const ColorConverter = () => {
 
   const [hexColor, setHexColor] = useState('rgb(200, 200, 200)');
