@@ -1,0 +1,41 @@
+.colorConverter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.form {
+    display: block;
+    background-color: #fff;
+    color: rgb(16, 27, 58);
+    margin-bottom: 3px;
+}
+
+.inputHexColor {
+    padding: 15px;
+    font-size: 20px;
+    border: 0;
+    text-align: center;
+    width: 200px;
+    color: rgb(16, 27, 58);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.inputHexColor:focus {
+    border: 0;
+    outline: none;
+}
+
+.rgbDiv {
+    background-color: rgb(16, 27, 58);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+}
